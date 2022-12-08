@@ -1,0 +1,15 @@
+import:
+  - key: aws_instance.server1
+    value: i-009802890890890
+  - key: aws_instance.server2
+    value: i-089808908908
+group2: 
+  - key: aws_s3_bucket.bucket1
+    value: mybucket1
+  - key: aws_s3_bucket.bucket2
+    value: mybucket2
+group3:
+  - key: module.mymodule.aws_cloudfront_distribution.s3
+    value: E709DB9EXAMPLE
+  - key: module.mymodule.aws_route53_record.cname
+    value: Z08980VADDCE09_hostname.domain.com_A
